@@ -29,7 +29,7 @@ jobs:
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist   # THIS generates the artifact from Vite build
+          path: dist
 
   deploy:
     runs-on: ubuntu-latest
