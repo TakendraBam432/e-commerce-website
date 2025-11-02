@@ -5,7 +5,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/", // should be '/' for app.takendrabam.com.np
+  base: "./", // should be '/' for app.takendrabam.com.np
   server: {
     host: "::",
     port: 8080,
